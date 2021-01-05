@@ -1,0 +1,222 @@
+.p1{
+    background-size:cover;
+    background-image: url("https://cdn.discordapp.com/attachments/679077252369088574/765324590469218314/photo-1528164344705-47542687000d.png");
+    
+    margin:0px;
+    font-family: 'Long Cang', cursive;
+  }
+  .brand {
+      width: 15vw;
+    z-index:1;    
+    margin-top: -1vh;
+    padding-bottom: 3vh;
+   background: transparent;
+ 
+    
+    font-family: 'Long Cang', cursive;
+    font-size: 150px;
+  }
+  #bar{
+    width: 15vw;
+    height:auto;
+    margin:3vh;
+    font-size:5vh;
+    display:flex;
+    flex-direction:column;
+  }
+  .but{
+    cursor:pointer;
+  }
+  .but:hover{
+    color:white;
+    
+  }
+  
+  
+  
+  #far{
+    margin-top:15vw;
+  }
+  #cart {
+    font-size:2.5vh;
+    position:fixed;
+    width : 100vw;
+    background-color:black;
+    color:white;
+    height :4vh;
+    bottom :0;
+    left : 0;
+  }
+  #fonta{
+    margin-top : 1vh;
+    margin-left:1vw;
+  }
+  @media screen and (max-width: 765px) {
+    #bar {
+        visibility: hidden;
+    }
+      }
+  .actualprods {
+    width :40vw;
+    height:50vh;
+    border:2px solid black;
+    margin-bottom:10vh;
+   
+  }
+  #products{
+    position: relative;
+    display:flex;
+      flex-wrap: wrap;
+    justify-content:space-around;
+    
+  }
+  .down{
+    font-family: 'Merienda One', cursive;
+      margin-top:44vh;
+      width: 30vw;
+      height: 6vh;
+      color:white;
+      background-color: #213040;
+      font-size: 4vh;
+      text-align: center;
+    
+  }
+  
+  #feat{
+    transform:translate(0,-10vh);
+    font-size:8vh;
+  }
+
+  #TheCollection{
+    width:100vw;
+    margin-top: 5vh;
+    text-align:center;
+  }
+  #hg{
+    height:66vw;
+    width:100vw;
+  }
+  #allof
+{
+    display: flex!important; 
+
+}
+#topgrad{
+    background: linear-gradient(0deg, rgb(252 0 0 / 0%) 0%, rgb(255,255,255) 100%);
+    width: 100vw;
+    height: 10vh;
+    margin-bottom: -10vh;
+}
+#gend1{
+    width: 30vw;
+    height:50vh; 
+    background-image: url("female.png");
+    background-repeat: no-repeat;
+    border-right:solid 1px ;
+}
+#gend2{
+    margin-left: 5vw;
+    width: 30vw;
+    height:50vh; 
+    background-image: url("male.gif");
+    background-repeat: no-repeat;
+    
+}
+#gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#theCollection h1{
+    margin-right: 20vw;
+}
+#theCollection a{
+    font-size: 20vh;
+}
+#first{
+    border-left: solid 1px;
+    margin-right: 20vw  ;
+    padding-left: 5vw;
+}
+a {
+    color: black;
+    text-decoration: none;
+    border-color: black
+}
+a:hover{
+    color: white;
+}
+p{margin:0;}
+body {
+  font-family:  'Long Cang', cursive;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#logo{
+ font-size: 10vh;
+ text-align: center;
+ border-bottom: solid 1px black;
+ padding-bottom: 2vh;
+ background: rgb(255,255,255);
+ background: rgb(255,255,255);
+ background: linear-gradient(0deg, rgba(255,255,255,1) 43%, rgba(85,241,219,1) 100%); }
+#curcol{
+ text-align: center;
+ border-bottom: solid 4px;
+}
+#back{
+ width: 100vw;
+ height: 100vh;
+ background-image: url(background.png);
+ background-size:cover;
+ display: flex;
+ align-items: center;
+}
+.discover{
+ text-decoration: none;
+ font-family: 'Advent Pro', sans-serif;
+
+ padding:10px;
+ font-weight: 100;
+ font-size: 2vw;
+ margin: 45%;
+ color: white;
+ border:3px solid white;
+}
+.discover:hover{
+ color: black;
+ background-color: white;
+}
+.item{
+  width: 33vw;
+  border: 1px solid black;
+  height: 500px;
+}
+.col{
+  width: 100vw;
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+
+
+}
+.item img{
+  width: 70%;
+  
+}
+.cart{
+  height: 10vh;
+  width: 100vw;
+}
+.cartbut{
+  border: 0;
+  width: 100px;
+  height:100px;
+  background-color: transparent;
+}
+.item h1{
+  font-size: 34px;
+}
